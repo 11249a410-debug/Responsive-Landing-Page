@@ -16,13 +16,13 @@ body{
 .navbar{
   display: flex;
   justify-content: space-between;
-  align-itgems: center;
+  align-items: center;
   padding: 1rem;
   background:#222;
   color: #fff;
 }
 
-.nav-links {
+.nav-links s{
     list-style: none;
     display: none;
     flex-direction: column;
@@ -61,13 +61,17 @@ body{
   transition: 0.3s;
 }
 
-.hero button:hover{
+.hero-content button{
+  cursor: pointer;
+}
+
+.hero-content button:hover{
   background: #222;
   color: white;
 }
 
 .features {
-  padding: 3rem 1 rem;
+  padding: 3rem 1pirem;
   text-align: center;
 }
 
@@ -85,7 +89,7 @@ body{
   transition: transform 0.3s ease;
 }
 
-.feature-card: hover{
+.feature-card:hover{
   transform: translateY(-10px);
 }
 
@@ -107,7 +111,7 @@ footer {
   }
 
  .features-container{
-  grid-template-columns : repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
  }
 }
 
@@ -116,7 +120,7 @@ footer {
     grid-template-columns: repeat(3, 1fr);
   }
   .hero-content h1{
-    font-size; 3 rem;
+    font-size: 3rem;
   }
 }
 
